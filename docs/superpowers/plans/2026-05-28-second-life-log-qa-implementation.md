@@ -39,7 +39,7 @@
 - Modify: `vite.config.ts`
 - Create: `tests/setup.ts`
 
-- [ ] **Step 1: Add failing test command first**
+- [x] **Step 1: Add failing test command first**
 
 ```json
 {
@@ -50,18 +50,18 @@
 }
 ```
 
-- [ ] **Step 2: Run tests before installing deps**
+- [x] **Step 2: Run tests before installing deps**
 
 Run: `pnpm test`  
 Expected: FAIL with missing `vitest` command.
 
-- [ ] **Step 3: Install minimal test dependencies**
+- [x] **Step 3: Install minimal test dependencies**
 
 ```bash
 pnpm add -D vitest @testing-library/svelte jsdom @vitest/coverage-v8
 ```
 
-- [ ] **Step 4: Wire Vitest into Vite config**
+- [x] **Step 4: Wire Vitest into Vite config**
 
 ```ts
 // vite.config.ts
@@ -75,7 +75,7 @@ export default defineConfig({
 });
 ```
 
-- [ ] **Step 5: Add setup file**
+- [x] **Step 5: Add setup file**
 
 ```ts
 // tests/setup.ts
@@ -85,12 +85,12 @@ import { cleanup } from '@testing-library/svelte';
 afterEach(() => cleanup());
 ```
 
-- [ ] **Step 6: Run tests and verify harness works**
+- [x] **Step 6: Run tests and verify harness works**
 
 Run: `pnpm test`  
 Expected: PASS with 0 tests found (or no failing harness errors).
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add package.json pnpm-lock.yaml vite.config.ts tests/setup.ts
@@ -103,7 +103,7 @@ git commit -m "chore: add vitest test harness"
 - Modify: `src/lib/server/db/schema.ts`
 - Create: `src/lib/server/db/migrations/0001_log_qa_usage.sql`
 
-- [ ] **Step 1: Write failing usage table test**
+- [x] **Step 1: Write failing usage table test**
 
 ```ts
 // tests/server/log-qa/usage.test.ts (initial)
@@ -117,12 +117,12 @@ describe('logQaUsage schema', () => {
 });
 ```
 
-- [ ] **Step 2: Run targeted test and verify fail**
+- [x] **Step 2: Run targeted test and verify fail**
 
 Run: `pnpm test tests/server/log-qa/usage.test.ts`  
 Expected: FAIL because `logQaUsage` export does not exist.
 
-- [ ] **Step 3: Add table to Drizzle schema**
+- [x] **Step 3: Add table to Drizzle schema**
 
 ```ts
 // src/lib/server/db/schema.ts
@@ -138,7 +138,7 @@ export const logQaUsage = sqliteTable(
 );
 ```
 
-- [ ] **Step 4: Add SQL migration**
+- [x] **Step 4: Add SQL migration**
 
 ```sql
 -- src/lib/server/db/migrations/0001_log_qa_usage.sql
@@ -151,12 +151,12 @@ CREATE TABLE IF NOT EXISTS log_qa_usage (
 );
 ```
 
-- [ ] **Step 5: Run targeted test and verify pass**
+- [x] **Step 5: Run targeted test and verify pass**
 
 Run: `pnpm test tests/server/log-qa/usage.test.ts`  
 Expected: PASS.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add src/lib/server/db/schema.ts src/lib/server/db/migrations/0001_log_qa_usage.sql tests/server/log-qa/usage.test.ts
@@ -551,4 +551,3 @@ git commit -m "docs: add log qa usage notes and refresh graphify output"
 - Spec coverage: upload UX, session-only raw logs, auth requirement, quota 20/day UTC, grounded prompt with evidence, provider-safe errors, and required privacy copy all map to Tasks 2-6.
 - Placeholder scan: no TODO/TBD markers or “similar to previous task” shortcuts remain; each task includes explicit files, commands, and expected outcomes.
 - Type consistency: shared names are consistent (`validateLogFileName`, `buildPromptPayload`, `assertWithinQuota`, `MAX_QUESTIONS_PER_UTC_DAY`, `/api/log-qa/ask`, `/log-qa`).
-
