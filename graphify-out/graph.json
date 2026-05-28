@@ -1,0 +1,4037 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "drizzle.config.ts",
+      "file_type": "code",
+      "source_file": "drizzle.config.ts",
+      "source_location": "L1",
+      "id": "drizzle_config_ts",
+      "community": 19,
+      "norm_label": "drizzle.config.ts"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L1",
+      "id": "eslint_config_js",
+      "community": 12,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "gitignorePath",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L11",
+      "id": "toologdidntread_eslint_config_gitignorepath",
+      "community": 12,
+      "norm_label": "gitignorepath"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "id": "tsconfig_json",
+      "community": 3,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "extends",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "id": "toologdidntread_tsconfig_extends",
+      "community": 3,
+      "norm_label": "extends"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "id": "toologdidntread_tsconfig_compileroptions",
+      "community": 3,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "rewriteRelativeImportExtensions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "id": "toologdidntread_tsconfig_compileroptions_rewriterelativeimportextensions",
+      "community": 3,
+      "norm_label": "rewriterelativeimportextensions"
+    },
+    {
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "id": "toologdidntread_tsconfig_compileroptions_allowjs",
+      "community": 3,
+      "norm_label": "allowjs"
+    },
+    {
+      "label": "checkJs",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "id": "toologdidntread_tsconfig_compileroptions_checkjs",
+      "community": 3,
+      "norm_label": "checkjs"
+    },
+    {
+      "label": "esModuleInterop",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "id": "toologdidntread_tsconfig_compileroptions_esmoduleinterop",
+      "community": 3,
+      "norm_label": "esmoduleinterop"
+    },
+    {
+      "label": "forceConsistentCasingInFileNames",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "id": "toologdidntread_tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "community": 3,
+      "norm_label": "forceconsistentcasinginfilenames"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "id": "toologdidntread_tsconfig_compileroptions_resolvejsonmodule",
+      "community": 3,
+      "norm_label": "resolvejsonmodule"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "id": "toologdidntread_tsconfig_compileroptions_skiplibcheck",
+      "community": 3,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "sourceMap",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "id": "toologdidntread_tsconfig_compileroptions_sourcemap",
+      "community": 3,
+      "norm_label": "sourcemap"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "id": "toologdidntread_tsconfig_compileroptions_strict",
+      "community": 3,
+      "norm_label": "strict"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "id": "toologdidntread_tsconfig_compileroptions_moduleresolution",
+      "community": 3,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 2,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "toologdidntread_package_name",
+      "community": 2,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "toologdidntread_package_private",
+      "community": 2,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "toologdidntread_package_version",
+      "community": 2,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "toologdidntread_package_type",
+      "community": 2,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "toologdidntread_package_scripts",
+      "community": 2,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "toologdidntread_package_scripts_dev",
+      "community": 2,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "toologdidntread_package_scripts_build",
+      "community": 2,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "toologdidntread_package_scripts_preview",
+      "community": 2,
+      "norm_label": "preview"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "toologdidntread_package_scripts_test",
+      "community": 2,
+      "norm_label": "test"
+    },
+    {
+      "label": "test:watch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "toologdidntread_package_scripts_test_watch",
+      "community": 2,
+      "norm_label": "test:watch"
+    },
+    {
+      "label": "prepare",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "id": "toologdidntread_package_scripts_prepare",
+      "community": 2,
+      "norm_label": "prepare"
+    },
+    {
+      "label": "check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "toologdidntread_package_scripts_check",
+      "community": 2,
+      "norm_label": "check"
+    },
+    {
+      "label": "check:watch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "toologdidntread_package_scripts_check_watch",
+      "community": 2,
+      "norm_label": "check:watch"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "id": "toologdidntread_package_scripts_lint",
+      "community": 2,
+      "norm_label": "lint"
+    },
+    {
+      "label": "format",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "toologdidntread_package_scripts_format",
+      "community": 2,
+      "norm_label": "format"
+    },
+    {
+      "label": "db:push",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "toologdidntread_package_scripts_db_push",
+      "community": 2,
+      "norm_label": "db:push"
+    },
+    {
+      "label": "db:generate",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "id": "toologdidntread_package_scripts_db_generate",
+      "community": 2,
+      "norm_label": "db:generate"
+    },
+    {
+      "label": "db:migrate",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "id": "toologdidntread_package_scripts_db_migrate",
+      "community": 2,
+      "norm_label": "db:migrate"
+    },
+    {
+      "label": "db:studio",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "id": "toologdidntread_package_scripts_db_studio",
+      "community": 2,
+      "norm_label": "db:studio"
+    },
+    {
+      "label": "auth:schema",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "id": "toologdidntread_package_scripts_auth_schema",
+      "community": 2,
+      "norm_label": "auth:schema"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "toologdidntread_package_devdependencies",
+      "community": 0,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@better-auth/cli",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "id": "toologdidntread_package_devdependencies_better_auth_cli",
+      "community": 0,
+      "norm_label": "@better-auth/cli"
+    },
+    {
+      "label": "@eslint/compat",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "toologdidntread_package_devdependencies_eslint_compat",
+      "community": 0,
+      "norm_label": "@eslint/compat"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "id": "toologdidntread_package_devdependencies_eslint_js",
+      "community": 0,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@sveltejs/adapter-auto",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "id": "toologdidntread_package_devdependencies_sveltejs_adapter_auto",
+      "community": 0,
+      "norm_label": "@sveltejs/adapter-auto"
+    },
+    {
+      "label": "@sveltejs/adapter-cloudflare",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "id": "toologdidntread_package_devdependencies_sveltejs_adapter_cloudflare",
+      "community": 0,
+      "norm_label": "@sveltejs/adapter-cloudflare"
+    },
+    {
+      "label": "@sveltejs/kit",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "id": "toologdidntread_package_devdependencies_sveltejs_kit",
+      "community": 0,
+      "norm_label": "@sveltejs/kit"
+    },
+    {
+      "label": "@sveltejs/vite-plugin-svelte",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "id": "toologdidntread_package_devdependencies_sveltejs_vite_plugin_svelte",
+      "community": 0,
+      "norm_label": "@sveltejs/vite-plugin-svelte"
+    },
+    {
+      "label": "@tailwindcss/forms",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "id": "toologdidntread_package_devdependencies_tailwindcss_forms",
+      "community": 0,
+      "norm_label": "@tailwindcss/forms"
+    },
+    {
+      "label": "@tailwindcss/typography",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "id": "toologdidntread_package_devdependencies_tailwindcss_typography",
+      "community": 0,
+      "norm_label": "@tailwindcss/typography"
+    },
+    {
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "id": "toologdidntread_package_devdependencies_tailwindcss_vite",
+      "community": 0,
+      "norm_label": "@tailwindcss/vite"
+    },
+    {
+      "label": "@testing-library/svelte",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "id": "toologdidntread_package_devdependencies_testing_library_svelte",
+      "community": 0,
+      "norm_label": "@testing-library/svelte"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "id": "toologdidntread_package_devdependencies_types_node",
+      "community": 0,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "@vitest/coverage-v8",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "id": "toologdidntread_package_devdependencies_vitest_coverage_v8",
+      "community": 0,
+      "norm_label": "@vitest/coverage-v8"
+    },
+    {
+      "label": "better-auth",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "id": "toologdidntread_package_devdependencies_better_auth",
+      "community": 0,
+      "norm_label": "better-auth"
+    },
+    {
+      "label": "drizzle-kit",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "id": "toologdidntread_package_devdependencies_drizzle_kit",
+      "community": 0,
+      "norm_label": "drizzle-kit"
+    },
+    {
+      "label": "drizzle-orm",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "id": "toologdidntread_package_devdependencies_drizzle_orm",
+      "community": 0,
+      "norm_label": "drizzle-orm"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "id": "toologdidntread_package_devdependencies_eslint",
+      "community": 0,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-config-prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "id": "toologdidntread_package_devdependencies_eslint_config_prettier",
+      "community": 0,
+      "norm_label": "eslint-config-prettier"
+    },
+    {
+      "label": "eslint-plugin-svelte",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "id": "toologdidntread_package_devdependencies_eslint_plugin_svelte",
+      "community": 0,
+      "norm_label": "eslint-plugin-svelte"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "id": "toologdidntread_package_devdependencies_globals",
+      "community": 0,
+      "norm_label": "globals"
+    },
+    {
+      "label": "jsdom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "id": "toologdidntread_package_devdependencies_jsdom",
+      "community": 0,
+      "norm_label": "jsdom"
+    },
+    {
+      "label": "prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "id": "toologdidntread_package_devdependencies_prettier",
+      "community": 0,
+      "norm_label": "prettier"
+    },
+    {
+      "label": "prettier-plugin-svelte",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "id": "toologdidntread_package_devdependencies_prettier_plugin_svelte",
+      "community": 0,
+      "norm_label": "prettier-plugin-svelte"
+    },
+    {
+      "label": "prettier-plugin-tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "id": "toologdidntread_package_devdependencies_prettier_plugin_tailwindcss",
+      "community": 0,
+      "norm_label": "prettier-plugin-tailwindcss"
+    },
+    {
+      "label": "svelte",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "id": "toologdidntread_package_devdependencies_svelte",
+      "community": 0,
+      "norm_label": "svelte"
+    },
+    {
+      "label": "svelte-check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "id": "toologdidntread_package_devdependencies_svelte_check",
+      "community": 0,
+      "norm_label": "svelte-check"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "id": "toologdidntread_package_devdependencies_tailwindcss",
+      "community": 0,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "id": "toologdidntread_package_devdependencies_typescript",
+      "community": 0,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "typescript-eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L52",
+      "id": "toologdidntread_package_devdependencies_typescript_eslint",
+      "community": 0,
+      "norm_label": "typescript-eslint"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L53",
+      "id": "toologdidntread_package_devdependencies_vite",
+      "community": 0,
+      "norm_label": "vite"
+    },
+    {
+      "label": "vitest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "id": "toologdidntread_package_devdependencies_vitest",
+      "community": 0,
+      "norm_label": "vitest"
+    },
+    {
+      "label": "wrangler",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L55",
+      "id": "toologdidntread_package_devdependencies_wrangler",
+      "community": 0,
+      "norm_label": "wrangler"
+    },
+    {
+      "label": ".graphify_detect.json",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "graphify_detect_json",
+      "community": 1,
+      "norm_label": ".graphify_detect.json"
+    },
+    {
+      "label": "files",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_files",
+      "community": 1,
+      "norm_label": "files"
+    },
+    {
+      "label": "code",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_files_code",
+      "community": 1,
+      "norm_label": "code"
+    },
+    {
+      "label": "document",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_files_document",
+      "community": 1,
+      "norm_label": "document"
+    },
+    {
+      "label": "paper",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_files_paper",
+      "community": 1,
+      "norm_label": "paper"
+    },
+    {
+      "label": "image",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_files_image",
+      "community": 1,
+      "norm_label": "image"
+    },
+    {
+      "label": "video",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_files_video",
+      "community": 1,
+      "norm_label": "video"
+    },
+    {
+      "label": "total_files",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_total_files",
+      "community": 1,
+      "norm_label": "total_files"
+    },
+    {
+      "label": "total_words",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_total_words",
+      "community": 1,
+      "norm_label": "total_words"
+    },
+    {
+      "label": "needs_graph",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_needs_graph",
+      "community": 1,
+      "norm_label": "needs_graph"
+    },
+    {
+      "label": "warning",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_warning",
+      "community": 1,
+      "norm_label": "warning"
+    },
+    {
+      "label": "skipped_sensitive",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_skipped_sensitive",
+      "community": 1,
+      "norm_label": "skipped_sensitive"
+    },
+    {
+      "label": "graphifyignore_patterns",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_graphifyignore_patterns",
+      "community": 1,
+      "norm_label": "graphifyignore_patterns"
+    },
+    {
+      "label": "scan_root",
+      "file_type": "code",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "id": "toologdidntread_graphify_detect_scan_root",
+      "community": 1,
+      "norm_label": "scan_root"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "id": "vite_config_ts",
+      "community": 20,
+      "norm_label": "vite.config.ts"
+    },
+    {
+      "label": ".mcp.json",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "id": "mcp_json",
+      "community": 10,
+      "norm_label": ".mcp.json"
+    },
+    {
+      "label": "mcpServers",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L2",
+      "id": "toologdidntread_mcp_mcpservers",
+      "community": 10,
+      "norm_label": "mcpservers"
+    },
+    {
+      "label": "svelte",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L3",
+      "id": "toologdidntread_mcp_mcpservers_svelte",
+      "community": 10,
+      "norm_label": "svelte"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L4",
+      "id": "toologdidntread_mcp_svelte_type",
+      "community": 10,
+      "norm_label": "type"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L5",
+      "id": "toologdidntread_mcp_svelte_url",
+      "community": 10,
+      "norm_label": "url"
+    },
+    {
+      "label": "svelte.config.js",
+      "file_type": "code",
+      "source_file": "svelte.config.js",
+      "source_location": "L1",
+      "id": "svelte_config_js",
+      "community": 12,
+      "norm_label": "svelte.config.js"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "svelte.config.js",
+      "source_location": "L4",
+      "id": "toologdidntread_svelte_config_config",
+      "community": 12,
+      "norm_label": "config"
+    },
+    {
+      "label": "opencode.json",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L1",
+      "id": "opencode_opencode_json",
+      "community": 15,
+      "norm_label": "opencode.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "id": "opencode_opencode_schema",
+      "community": 15,
+      "norm_label": "$schema"
+    },
+    {
+      "label": "plugin",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L3",
+      "id": "opencode_opencode_plugin",
+      "community": 15,
+      "norm_label": "plugin"
+    },
+    {
+      "label": "svelte.json",
+      "file_type": "code",
+      "source_file": ".opencode/svelte.json",
+      "source_location": "L1",
+      "id": "opencode_svelte_json",
+      "community": 17,
+      "norm_label": "svelte.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": ".opencode/svelte.json",
+      "source_location": "L2",
+      "id": "opencode_svelte_schema",
+      "community": 17,
+      "norm_label": "$schema"
+    },
+    {
+      "label": "hooks.json",
+      "file_type": "code",
+      "source_file": ".codex/hooks.json",
+      "source_location": "L1",
+      "id": "codex_hooks_json",
+      "community": 27,
+      "norm_label": "hooks.json"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".codex/hooks.json",
+      "source_location": "L2",
+      "id": "codex_hooks_hooks",
+      "community": 27,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "PreToolUse",
+      "file_type": "code",
+      "source_file": ".codex/hooks.json",
+      "source_location": "L3",
+      "id": "codex_hooks_hooks_pretooluse",
+      "community": 27,
+      "norm_label": "pretooluse"
+    },
+    {
+      "label": "mcp.json",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L1",
+      "id": "cursor_mcp_json",
+      "community": 11,
+      "norm_label": "mcp.json"
+    },
+    {
+      "label": "mcpServers",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L2",
+      "id": "cursor_mcp_mcpservers",
+      "community": 11,
+      "norm_label": "mcpservers"
+    },
+    {
+      "label": "svelte",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L3",
+      "id": "cursor_mcp_mcpservers_svelte",
+      "community": 11,
+      "norm_label": "svelte"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L4",
+      "id": "cursor_mcp_svelte_url",
+      "community": 11,
+      "norm_label": "url"
+    },
+    {
+      "label": "setup.ts",
+      "file_type": "code",
+      "source_file": "tests/setup.ts",
+      "source_location": "L1",
+      "id": "tests_setup_ts",
+      "community": 28,
+      "norm_label": "setup.ts"
+    },
+    {
+      "label": "usage.test.ts",
+      "file_type": "code",
+      "source_file": "tests/server/log-qa/usage.test.ts",
+      "source_location": "L1",
+      "id": "tests_server_log_qa_usage_test_ts",
+      "community": 4,
+      "norm_label": "usage.test.ts"
+    },
+    {
+      "label": "extensions.json",
+      "file_type": "code",
+      "source_file": ".vscode/extensions.json",
+      "source_location": "L1",
+      "id": "vscode_extensions_json",
+      "community": 18,
+      "norm_label": "extensions.json"
+    },
+    {
+      "label": "recommendations",
+      "file_type": "code",
+      "source_file": ".vscode/extensions.json",
+      "source_location": "L2",
+      "id": "vscode_extensions_recommendations",
+      "community": 18,
+      "norm_label": "recommendations"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L1",
+      "id": "vscode_settings_json",
+      "community": 16,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "files.associations",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "id": "vscode_settings_files_associations",
+      "community": 16,
+      "norm_label": "files.associations"
+    },
+    {
+      "label": "*.css",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L3",
+      "id": "vscode_settings_files_associations_css",
+      "community": 16,
+      "norm_label": "*.css"
+    },
+    {
+      "label": "hooks.server.ts",
+      "file_type": "code",
+      "source_file": "src/hooks.server.ts",
+      "source_location": "L1",
+      "id": "src_hooks_server_ts",
+      "community": 4,
+      "norm_label": "hooks.server.ts"
+    },
+    {
+      "label": "handleBetterAuth()",
+      "file_type": "code",
+      "source_file": "src/hooks.server.ts",
+      "source_location": "L6",
+      "id": "src_hooks_server_handlebetterauth",
+      "community": 4,
+      "norm_label": "handlebetterauth()"
+    },
+    {
+      "label": "app.d.ts",
+      "file_type": "code",
+      "source_file": "src/app.d.ts",
+      "source_location": "L1",
+      "id": "src_app_d_ts",
+      "community": 4,
+      "norm_label": "app.d.ts"
+    },
+    {
+      "label": "Locals",
+      "file_type": "code",
+      "source_file": "src/app.d.ts",
+      "source_location": "L9",
+      "id": "src_app_d_locals",
+      "community": 4,
+      "norm_label": "locals"
+    },
+    {
+      "label": "Platform",
+      "file_type": "code",
+      "source_file": "src/app.d.ts",
+      "source_location": "L18",
+      "id": "src_app_d_platform",
+      "community": 4,
+      "norm_label": "platform"
+    },
+    {
+      "label": "+layout.svelte",
+      "file_type": "code",
+      "source_file": "src/routes/+layout.svelte",
+      "source_location": "L1",
+      "id": "src_routes_layout_svelte",
+      "community": 14,
+      "norm_label": "+layout.svelte"
+    },
+    {
+      "label": "./layout.css",
+      "file_type": "code",
+      "source_file": "src/routes/layout.css",
+      "confidence": "EXTRACTED",
+      "id": "home_daniele_dev_toologdidntread_src_routes_layout_css",
+      "community": 14,
+      "norm_label": "./layout.css"
+    },
+    {
+      "label": "$lib/assets/favicon.svg",
+      "file_type": "code",
+      "source_file": "src/lib/assets/favicon.svg",
+      "confidence": "EXTRACTED",
+      "id": "home_daniele_dev_toologdidntread_src_lib_assets_favicon_svg",
+      "community": 14,
+      "norm_label": "$lib/assets/favicon.svg"
+    },
+    {
+      "label": "+page.svelte",
+      "file_type": "code",
+      "source_file": "src/routes/+page.svelte",
+      "source_location": "L1",
+      "id": "src_routes_page_svelte",
+      "community": 21,
+      "norm_label": "+page.svelte"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "src/lib/index.ts",
+      "source_location": "L1",
+      "id": "src_lib_index_ts",
+      "community": 22,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "src/lib/server/auth.ts",
+      "source_location": "L1",
+      "id": "src_lib_server_auth_ts",
+      "community": 4,
+      "norm_label": "auth.ts"
+    },
+    {
+      "label": "createAuth()",
+      "file_type": "code",
+      "source_file": "src/lib/server/auth.ts",
+      "source_location": "L18",
+      "id": "server_auth_createauth",
+      "community": 4,
+      "norm_label": "createauth()"
+    },
+    {
+      "label": "auth",
+      "file_type": "code",
+      "source_file": "src/lib/server/auth.ts",
+      "source_location": "L30",
+      "id": "server_auth_auth",
+      "community": 4,
+      "norm_label": "auth"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/index.ts",
+      "source_location": "L1",
+      "id": "src_lib_server_db_index_ts",
+      "community": 4,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "getDb()",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/index.ts",
+      "source_location": "L4",
+      "id": "db_index_getdb",
+      "community": 4,
+      "norm_label": "getdb()"
+    },
+    {
+      "label": "schema.ts",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/schema.ts",
+      "source_location": "L1",
+      "id": "src_lib_server_db_schema_ts",
+      "community": 4,
+      "norm_label": "schema.ts"
+    },
+    {
+      "label": "task",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/schema.ts",
+      "source_location": "L3",
+      "id": "db_schema_task",
+      "community": 4,
+      "norm_label": "task"
+    },
+    {
+      "label": "logQaUsage",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/schema.ts",
+      "source_location": "L11",
+      "id": "db_schema_logqausage",
+      "community": 4,
+      "norm_label": "logqausage"
+    },
+    {
+      "label": "auth.schema.ts",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L1",
+      "id": "src_lib_server_db_auth_schema_ts",
+      "community": 6,
+      "norm_label": "auth.schema.ts"
+    },
+    {
+      "label": "user",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L4",
+      "id": "db_auth_schema_user",
+      "community": 6,
+      "norm_label": "user"
+    },
+    {
+      "label": "session",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L21",
+      "id": "db_auth_schema_session",
+      "community": 6,
+      "norm_label": "session"
+    },
+    {
+      "label": "account",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L42",
+      "id": "db_auth_schema_account",
+      "community": 6,
+      "norm_label": "account"
+    },
+    {
+      "label": "verification",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L72",
+      "id": "db_auth_schema_verification",
+      "community": 6,
+      "norm_label": "verification"
+    },
+    {
+      "label": "userRelations",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L90",
+      "id": "db_auth_schema_userrelations",
+      "community": 6,
+      "norm_label": "userrelations"
+    },
+    {
+      "label": "sessionRelations",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L95",
+      "id": "db_auth_schema_sessionrelations",
+      "community": 6,
+      "norm_label": "sessionrelations"
+    },
+    {
+      "label": "accountRelations",
+      "file_type": "code",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L102",
+      "id": "db_auth_schema_accountrelations",
+      "community": 6,
+      "norm_label": "accountrelations"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "id": "claude_settings_json",
+      "community": 26,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "id": "claude_settings_hooks",
+      "community": 26,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "PreToolUse",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "id": "claude_settings_hooks_pretooluse",
+      "community": 26,
+      "norm_label": "pretooluse"
+    },
+    {
+      "label": "settings.local.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L1",
+      "id": "claude_settings_local_json",
+      "community": 13,
+      "norm_label": "settings.local.json"
+    },
+    {
+      "label": "enabledMcpjsonServers",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "id": "claude_settings_local_enabledmcpjsonservers",
+      "community": 13,
+      "norm_label": "enabledmcpjsonservers"
+    },
+    {
+      "label": "enableAllProjectMcpServers",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L5",
+      "id": "claude_settings_local_enableallprojectmcpservers",
+      "community": 13,
+      "norm_label": "enableallprojectmcpservers"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 5,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "sv",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "toologdidntread_readme_sv",
+      "community": 5,
+      "norm_label": "sv"
+    },
+    {
+      "label": "Creating a project",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "toologdidntread_readme_creating_a_project",
+      "community": 5,
+      "norm_label": "creating a project"
+    },
+    {
+      "label": "code:sh (# create a new project)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "id": "toologdidntread_readme_codeblock_1",
+      "community": 5,
+      "norm_label": "code:sh (# create a new project)"
+    },
+    {
+      "label": "code:sh (# recreate this project)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "id": "toologdidntread_readme_codeblock_2",
+      "community": 5,
+      "norm_label": "code:sh (# recreate this project)"
+    },
+    {
+      "label": "Developing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "id": "toologdidntread_readme_developing",
+      "community": 5,
+      "norm_label": "developing"
+    },
+    {
+      "label": "code:sh (npm run dev)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "id": "toologdidntread_readme_codeblock_3",
+      "community": 5,
+      "norm_label": "code:sh (npm run dev)"
+    },
+    {
+      "label": "Building",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "id": "toologdidntread_readme_building",
+      "community": 5,
+      "norm_label": "building"
+    },
+    {
+      "label": "code:sh (npm run build)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "id": "toologdidntread_readme_codeblock_4",
+      "community": 5,
+      "norm_label": "code:sh (npm run build)"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 8,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "Project Configuration",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "toologdidntread_claude_project_configuration",
+      "community": 8,
+      "norm_label": "project configuration"
+    },
+    {
+      "label": "Available Svelte MCP Tools:",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "id": "toologdidntread_claude_available_svelte_mcp_tools",
+      "community": 8,
+      "norm_label": "available svelte mcp tools:"
+    },
+    {
+      "label": "1. list-sections",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L13",
+      "id": "toologdidntread_claude_1_list_sections",
+      "community": 8,
+      "norm_label": "1. list-sections"
+    },
+    {
+      "label": "2. get-documentation",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L18",
+      "id": "toologdidntread_claude_2_get_documentation",
+      "community": 8,
+      "norm_label": "2. get-documentation"
+    },
+    {
+      "label": "3. svelte-autofixer",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L23",
+      "id": "toologdidntread_claude_3_svelte_autofixer",
+      "community": 8,
+      "norm_label": "3. svelte-autofixer"
+    },
+    {
+      "label": "4. playground-link",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L28",
+      "id": "toologdidntread_claude_4_playground_link",
+      "community": 8,
+      "norm_label": "4. playground-link"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L33",
+      "id": "toologdidntread_claude_graphify",
+      "community": 8,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "agents_md",
+      "community": 7,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "Project Configuration",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "toologdidntread_agents_project_configuration",
+      "community": 7,
+      "norm_label": "project configuration"
+    },
+    {
+      "label": "Available Svelte MCP Tools:",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L11",
+      "id": "toologdidntread_agents_available_svelte_mcp_tools",
+      "community": 7,
+      "norm_label": "available svelte mcp tools:"
+    },
+    {
+      "label": "1. list-sections",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L13",
+      "id": "toologdidntread_agents_1_list_sections",
+      "community": 7,
+      "norm_label": "1. list-sections"
+    },
+    {
+      "label": "2. get-documentation",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L18",
+      "id": "toologdidntread_agents_2_get_documentation",
+      "community": 7,
+      "norm_label": "2. get-documentation"
+    },
+    {
+      "label": "3. svelte-autofixer",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L23",
+      "id": "toologdidntread_agents_3_svelte_autofixer",
+      "community": 7,
+      "norm_label": "3. svelte-autofixer"
+    },
+    {
+      "label": "4. playground-link",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L28",
+      "id": "toologdidntread_agents_4_playground_link",
+      "community": 7,
+      "norm_label": "4. playground-link"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L33",
+      "id": "toologdidntread_agents_graphify",
+      "community": 7,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "2026-05-28-second-life-log-qa-implementation.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L1",
+      "id": "docs_superpowers_plans_2026_05_28_second_life_log_qa_implementation_md",
+      "community": 9,
+      "norm_label": "2026-05-28-second-life-log-qa-implementation.md"
+    },
+    {
+      "label": "Second Life Log Q&A Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L1",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_second_life_log_q_a_implementation_plan",
+      "community": 9,
+      "norm_label": "second life log q&a implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L13",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "community": 9,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Test Harness + Dependencies",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L35",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_task_1_test_harness_dependencies",
+      "community": 9,
+      "norm_label": "task 1: test harness + dependencies"
+    },
+    {
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L44",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_1",
+      "community": 9,
+      "norm_label": "code:json ({)"
+    },
+    {
+      "label": "code:bash (pnpm add -D vitest @testing-library/svelte jsdom @vitest/cov)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L60",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_2",
+      "community": 9,
+      "norm_label": "code:bash (pnpm add -d vitest @testing-library/svelte jsdom @vitest/cov)"
+    },
+    {
+      "label": "code:ts (// vite.config.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L66",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_3",
+      "community": 9,
+      "norm_label": "code:ts (// vite.config.ts)"
+    },
+    {
+      "label": "code:ts (// tests/setup.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L80",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_4",
+      "community": 9,
+      "norm_label": "code:ts (// tests/setup.ts)"
+    },
+    {
+      "label": "code:bash (git add package.json pnpm-lock.yaml vite.config.ts tests/set)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L95",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_5",
+      "community": 9,
+      "norm_label": "code:bash (git add package.json pnpm-lock.yaml vite.config.ts tests/set)"
+    },
+    {
+      "label": "Task 2: D1 Usage Counter Schema",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L100",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_task_2_d1_usage_counter_schema",
+      "community": 9,
+      "norm_label": "task 2: d1 usage counter schema"
+    },
+    {
+      "label": "code:ts (// tests/server/log-qa/usage.test.ts (initial))",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L108",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_6",
+      "community": 9,
+      "norm_label": "code:ts (// tests/server/log-qa/usage.test.ts (initial))"
+    },
+    {
+      "label": "code:ts (// src/lib/server/db/schema.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L127",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_7",
+      "community": 9,
+      "norm_label": "code:ts (// src/lib/server/db/schema.ts)"
+    },
+    {
+      "label": "code:sql (-- src/lib/server/db/migrations/0001_log_qa_usage.sql)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L143",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_8",
+      "community": 9,
+      "norm_label": "code:sql (-- src/lib/server/db/migrations/0001_log_qa_usage.sql)"
+    },
+    {
+      "label": "code:bash (git add src/lib/server/db/schema.ts src/lib/server/db/migrat)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L161",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_9",
+      "community": 9,
+      "norm_label": "code:bash (git add src/lib/server/db/schema.ts src/lib/server/db/migrat)"
+    },
+    {
+      "label": "Task 3: Validation + Prompt Utilities (TDD)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L166",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "community": 24,
+      "norm_label": "task 3: validation + prompt utilities (tdd)"
+    },
+    {
+      "label": "code:ts (// tests/server/log-qa/validation.test.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L178",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_10",
+      "community": 24,
+      "norm_label": "code:ts (// tests/server/log-qa/validation.test.ts)"
+    },
+    {
+      "label": "code:ts (// tests/server/log-qa/prompt.test.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L206",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_11",
+      "community": 24,
+      "norm_label": "code:ts (// tests/server/log-qa/prompt.test.ts)"
+    },
+    {
+      "label": "code:ts (// src/lib/server/log-qa/constants.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L230",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_12",
+      "community": 24,
+      "norm_label": "code:ts (// src/lib/server/log-qa/constants.ts)"
+    },
+    {
+      "label": "code:ts (// src/lib/server/log-qa/line-number.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L237",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_13",
+      "community": 24,
+      "norm_label": "code:ts (// src/lib/server/log-qa/line-number.ts)"
+    },
+    {
+      "label": "code:ts (// src/lib/server/log-qa/validation.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L246",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_14",
+      "community": 24,
+      "norm_label": "code:ts (// src/lib/server/log-qa/validation.ts)"
+    },
+    {
+      "label": "code:ts (// src/lib/server/log-qa/prompt.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L265",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_15",
+      "community": 24,
+      "norm_label": "code:ts (// src/lib/server/log-qa/prompt.ts)"
+    },
+    {
+      "label": "code:bash (git add src/lib/server/log-qa/constants.ts src/lib/server/lo)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L283",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_16",
+      "community": 24,
+      "norm_label": "code:bash (git add src/lib/server/log-qa/constants.ts src/lib/server/lo)"
+    },
+    {
+      "label": "Task 4: Quota Service + Provider Adapter",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L288",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_task_4_quota_service_provider_adapter",
+      "community": 9,
+      "norm_label": "task 4: quota service + provider adapter"
+    },
+    {
+      "label": "code:ts (// tests/server/log-qa/usage.test.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L297",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_17",
+      "community": 9,
+      "norm_label": "code:ts (// tests/server/log-qa/usage.test.ts)"
+    },
+    {
+      "label": "code:ts (// src/lib/server/log-qa/usage.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L320",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_18",
+      "community": 9,
+      "norm_label": "code:ts (// src/lib/server/log-qa/usage.ts)"
+    },
+    {
+      "label": "code:ts (// src/lib/server/log-qa/provider.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L331",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_19",
+      "community": 9,
+      "norm_label": "code:ts (// src/lib/server/log-qa/provider.ts)"
+    },
+    {
+      "label": "code:bash (git add src/lib/server/log-qa/usage.ts src/lib/server/log-qa)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L351",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_20",
+      "community": 9,
+      "norm_label": "code:bash (git add src/lib/server/log-qa/usage.ts src/lib/server/log-qa)"
+    },
+    {
+      "label": "Task 5: Ask Endpoint With Auth, Validation, Quota, and Provider Errors",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L356",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_task_5_ask_endpoint_with_auth_validation_quota_and_provider_errors",
+      "community": 25,
+      "norm_label": "task 5: ask endpoint with auth, validation, quota, and provider errors"
+    },
+    {
+      "label": "code:ts (// tests/routes/api/log-qa-ask.test.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L367",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_21",
+      "community": 25,
+      "norm_label": "code:ts (// tests/routes/api/log-qa-ask.test.ts)"
+    },
+    {
+      "label": "code:ts (// src/routes/api/log-qa/ask/+server.ts (shape))",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L395",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_22",
+      "community": 25,
+      "norm_label": "code:ts (// src/routes/api/log-qa/ask/+server.ts (shape))"
+    },
+    {
+      "label": "code:ts (// src/lib/server/log-qa/usage.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L409",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_23",
+      "community": 25,
+      "norm_label": "code:ts (// src/lib/server/log-qa/usage.ts)"
+    },
+    {
+      "label": "code:ts (// src/lib/server/log-qa/provider.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L418",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_24",
+      "community": 25,
+      "norm_label": "code:ts (// src/lib/server/log-qa/provider.ts)"
+    },
+    {
+      "label": "code:env (# .env.example)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L427",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_25",
+      "community": 25,
+      "norm_label": "code:env (# .env.example)"
+    },
+    {
+      "label": "code:bash (git add src/routes/api/log-qa/ask/+server.ts src/lib/server/)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L440",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_26",
+      "community": 25,
+      "norm_label": "code:bash (git add src/routes/api/log-qa/ask/+server.ts src/lib/server/)"
+    },
+    {
+      "label": "Task 6: Log Q&A Page UI + Session-Only State",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L445",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_task_6_log_q_a_page_ui_session_only_state",
+      "community": 9,
+      "norm_label": "task 6: log q&a page ui + session-only state"
+    },
+    {
+      "label": "code:ts (// tests/routes/log-qa-page.test.ts)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L453",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_27",
+      "community": 9,
+      "norm_label": "code:ts (// tests/routes/log-qa-page.test.ts)"
+    },
+    {
+      "label": "code:svelte (<!-- src/routes/log-qa/+page.svelte -->)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L480",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_28",
+      "community": 9,
+      "norm_label": "code:svelte (<!-- src/routes/log-qa/+page.svelte -->)"
+    },
+    {
+      "label": "code:bash (git add src/routes/log-qa/+page.svelte tests/routes/log-qa-p)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L503",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_29",
+      "community": 9,
+      "norm_label": "code:bash (git add src/routes/log-qa/+page.svelte tests/routes/log-qa-p)"
+    },
+    {
+      "label": "Task 7: End-to-End Verification + Graph Update",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L508",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_task_7_end_to_end_verification_graph_update",
+      "community": 9,
+      "norm_label": "task 7: end-to-end verification + graph update"
+    },
+    {
+      "label": "code:md (## Log Q&A)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L515",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_30",
+      "community": 9,
+      "norm_label": "code:md (## log q&a)"
+    },
+    {
+      "label": "code:bash (git add README.md graphify-out)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L544",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_31",
+      "community": 9,
+      "norm_label": "code:bash (git add readme.md graphify-out)"
+    },
+    {
+      "label": "Self-Review",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L549",
+      "id": "plans_2026_05_28_second_life_log_qa_implementation_self_review",
+      "community": 9,
+      "norm_label": "self-review"
+    },
+    {
+      "label": "2026-05-28-second-life-log-qa-design.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L1",
+      "id": "docs_superpowers_specs_2026_05_28_second_life_log_qa_design_md",
+      "community": 23,
+      "norm_label": "2026-05-28-second-life-log-qa-design.md"
+    },
+    {
+      "label": "Second Life Log Q&A Design",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L1",
+      "id": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "community": 23,
+      "norm_label": "second life log q&a design"
+    },
+    {
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L3",
+      "id": "specs_2026_05_28_second_life_log_qa_design_summary",
+      "community": 23,
+      "norm_label": "summary"
+    },
+    {
+      "label": "Goals",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L9",
+      "id": "specs_2026_05_28_second_life_log_qa_design_goals",
+      "community": 23,
+      "norm_label": "goals"
+    },
+    {
+      "label": "Non-Goals",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L18",
+      "id": "specs_2026_05_28_second_life_log_qa_design_non_goals",
+      "community": 23,
+      "norm_label": "non-goals"
+    },
+    {
+      "label": "User Experience",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L25",
+      "id": "specs_2026_05_28_second_life_log_qa_design_user_experience",
+      "community": 23,
+      "norm_label": "user experience"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L39",
+      "id": "specs_2026_05_28_second_life_log_qa_design_architecture",
+      "community": 23,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Data Storage",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L58",
+      "id": "specs_2026_05_28_second_life_log_qa_design_data_storage",
+      "community": 23,
+      "norm_label": "data storage"
+    },
+    {
+      "label": "Validation And Errors",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L71",
+      "id": "specs_2026_05_28_second_life_log_qa_design_validation_and_errors",
+      "community": 23,
+      "norm_label": "validation and errors"
+    },
+    {
+      "label": "AI Prompting",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L84",
+      "id": "specs_2026_05_28_second_life_log_qa_design_ai_prompting",
+      "community": 23,
+      "norm_label": "ai prompting"
+    },
+    {
+      "label": "Testing",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L95",
+      "id": "specs_2026_05_28_second_life_log_qa_design_testing",
+      "community": 23,
+      "norm_label": "testing"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L114",
+      "id": "specs_2026_05_28_second_life_log_qa_design_decisions",
+      "community": 23,
+      "norm_label": "decisions"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eslint_config_js",
+      "target": "svelte_config_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eslint_config_js",
+      "target": "toologdidntread_eslint_config_gitignorepath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_json",
+      "target": "toologdidntread_tsconfig_extends"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_json",
+      "target": "toologdidntread_tsconfig_compileroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_rewriterelativeimportextensions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_allowjs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_checkjs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_esmoduleinterop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_forceconsistentcasinginfilenames"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_resolvejsonmodule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_skiplibcheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_sourcemap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_strict"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_tsconfig_compileroptions",
+      "target": "toologdidntread_tsconfig_compileroptions_moduleresolution"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "toologdidntread_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "toologdidntread_package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "toologdidntread_package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "toologdidntread_package_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "toologdidntread_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "toologdidntread_package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_preview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_test_watch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_prepare"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_check"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_check_watch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_db_push"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_db_generate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_db_migrate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_db_studio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_scripts",
+      "target": "toologdidntread_package_scripts_auth_schema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_better_auth_cli"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_eslint_compat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_eslint_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_sveltejs_adapter_auto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_sveltejs_adapter_cloudflare"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_sveltejs_kit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_sveltejs_vite_plugin_svelte"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_tailwindcss_forms"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_tailwindcss_typography"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_tailwindcss_vite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_testing_library_svelte",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_vitest_coverage_v8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_better_auth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_drizzle_kit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_drizzle_orm"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_eslint_config_prettier"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_eslint_plugin_svelte"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_globals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_jsdom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_prettier"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_prettier_plugin_svelte"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_prettier_plugin_tailwindcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_svelte"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_svelte_check"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_tailwindcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_typescript"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_typescript_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_vite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_vitest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_package_devdependencies",
+      "target": "toologdidntread_package_devdependencies_wrangler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_detect_json",
+      "target": "toologdidntread_graphify_detect_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_detect_json",
+      "target": "toologdidntread_graphify_detect_total_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_detect_json",
+      "target": "toologdidntread_graphify_detect_total_words"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_detect_json",
+      "target": "toologdidntread_graphify_detect_needs_graph"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_detect_json",
+      "target": "toologdidntread_graphify_detect_warning"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_detect_json",
+      "target": "toologdidntread_graphify_detect_skipped_sensitive"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_detect_json",
+      "target": "toologdidntread_graphify_detect_graphifyignore_patterns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_detect_json",
+      "target": "toologdidntread_graphify_detect_scan_root"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_graphify_detect_files",
+      "target": "toologdidntread_graphify_detect_files_code"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_graphify_detect_files",
+      "target": "toologdidntread_graphify_detect_files_document"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_graphify_detect_files",
+      "target": "toologdidntread_graphify_detect_files_paper"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_graphify_detect_files",
+      "target": "toologdidntread_graphify_detect_files_image"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".graphify_detect.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_graphify_detect_files",
+      "target": "toologdidntread_graphify_detect_files_video"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".mcp.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "mcp_json",
+      "target": "toologdidntread_mcp_mcpservers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".mcp.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_mcp_mcpservers",
+      "target": "toologdidntread_mcp_mcpservers_svelte"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".mcp.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_mcp_mcpservers_svelte",
+      "target": "toologdidntread_mcp_svelte_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".mcp.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_mcp_mcpservers_svelte",
+      "target": "toologdidntread_mcp_svelte_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "svelte.config.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "svelte_config_js",
+      "target": "toologdidntread_svelte_config_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "opencode_opencode_json",
+      "target": "opencode_opencode_schema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "opencode_opencode_json",
+      "target": "opencode_opencode_plugin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/svelte.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "opencode_svelte_json",
+      "target": "opencode_svelte_schema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/hooks.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "codex_hooks_json",
+      "target": "codex_hooks_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/hooks.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "codex_hooks_hooks",
+      "target": "codex_hooks_hooks_pretooluse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_mcp_json",
+      "target": "cursor_mcp_mcpservers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_mcp_mcpservers",
+      "target": "cursor_mcp_mcpservers_svelte"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_mcp_mcpservers_svelte",
+      "target": "cursor_mcp_svelte_url"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/server/log-qa/usage.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tests_server_log_qa_usage_test_ts",
+      "target": "src_lib_server_db_schema_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/server/log-qa/usage.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tests_server_log_qa_usage_test_ts",
+      "target": "db_schema_logqausage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/extensions.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vscode_extensions_json",
+      "target": "vscode_extensions_recommendations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vscode_settings_json",
+      "target": "vscode_settings_files_associations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vscode_settings_files_associations",
+      "target": "vscode_settings_files_associations_css"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks.server.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_hooks_server_ts",
+      "target": "src_lib_server_auth_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks.server.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_hooks_server_ts",
+      "target": "server_auth_createauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks.server.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_hooks_server_ts",
+      "target": "src_hooks_server_handlebetterauth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/hooks.server.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_hooks_server_handlebetterauth",
+      "target": "server_auth_createauth"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.d.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_d_ts",
+      "target": "src_lib_server_auth_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.d.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_d_ts",
+      "target": "server_auth_createauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.d.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_d_ts",
+      "target": "src_app_d_locals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.d.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_d_ts",
+      "target": "src_app_d_platform"
+    },
+    {
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
+      "source": "src_routes_layout_svelte",
+      "target": "home_daniele_dev_toologdidntread_src_routes_layout_css"
+    },
+    {
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
+      "source": "src_routes_layout_svelte",
+      "target": "home_daniele_dev_toologdidntread_src_lib_assets_favicon_svg"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/auth.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_auth_ts",
+      "target": "src_lib_server_db_index_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/auth.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_auth_ts",
+      "target": "db_index_getdb"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/auth.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_auth_ts",
+      "target": "server_auth_createauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/auth.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_auth_ts",
+      "target": "server_auth_auth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/lib/server/auth.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "server_auth_createauth",
+      "target": "db_index_getdb"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_index_ts",
+      "target": "src_lib_server_db_schema_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/index.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_index_ts",
+      "target": "db_index_getdb"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/schema.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_schema_ts",
+      "target": "db_schema_task"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/schema.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_lib_server_db_schema_ts",
+      "target": "db_schema_logqausage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_auth_schema_ts",
+      "target": "db_auth_schema_user"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_auth_schema_ts",
+      "target": "db_auth_schema_session"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_auth_schema_ts",
+      "target": "db_auth_schema_account"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_auth_schema_ts",
+      "target": "db_auth_schema_verification"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_auth_schema_ts",
+      "target": "db_auth_schema_userrelations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_auth_schema_ts",
+      "target": "db_auth_schema_sessionrelations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/server/db/auth.schema.ts",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_server_db_auth_schema_ts",
+      "target": "db_auth_schema_accountrelations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_pretooluse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_local_json",
+      "target": "claude_settings_local_enabledmcpjsonservers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_local_json",
+      "target": "claude_settings_local_enableallprojectmcpservers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "toologdidntread_readme_sv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_readme_sv",
+      "target": "toologdidntread_readme_creating_a_project"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_readme_sv",
+      "target": "toologdidntread_readme_developing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_readme_sv",
+      "target": "toologdidntread_readme_building"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_readme_creating_a_project",
+      "target": "toologdidntread_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_readme_creating_a_project",
+      "target": "toologdidntread_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_readme_developing",
+      "target": "toologdidntread_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_readme_building",
+      "target": "toologdidntread_readme_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_md",
+      "target": "toologdidntread_claude_project_configuration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_md",
+      "target": "toologdidntread_claude_available_svelte_mcp_tools"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "toologdidntread_claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_claude_available_svelte_mcp_tools",
+      "target": "toologdidntread_claude_1_list_sections"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_claude_available_svelte_mcp_tools",
+      "target": "toologdidntread_claude_2_get_documentation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_claude_available_svelte_mcp_tools",
+      "target": "toologdidntread_claude_3_svelte_autofixer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_claude_available_svelte_mcp_tools",
+      "target": "toologdidntread_claude_4_playground_link"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_md",
+      "target": "toologdidntread_agents_project_configuration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_md",
+      "target": "toologdidntread_agents_available_svelte_mcp_tools"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "agents_md",
+      "target": "toologdidntread_agents_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_agents_available_svelte_mcp_tools",
+      "target": "toologdidntread_agents_1_list_sections"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_agents_available_svelte_mcp_tools",
+      "target": "toologdidntread_agents_2_get_documentation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_agents_available_svelte_mcp_tools",
+      "target": "toologdidntread_agents_3_svelte_autofixer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "toologdidntread_agents_available_svelte_mcp_tools",
+      "target": "toologdidntread_agents_4_playground_link"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_05_28_second_life_log_qa_implementation_md",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_second_life_log_q_a_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_second_life_log_q_a_implementation_plan",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L549",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_second_life_log_q_a_implementation_plan",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_self_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_task_1_test_harness_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_task_2_d1_usage_counter_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L288",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_task_4_quota_service_provider_adapter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L356",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_task_5_ask_endpoint_with_auth_validation_quota_and_provider_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L445",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_task_6_log_q_a_page_ui_session_only_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L508",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_file_structure",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_task_7_end_to_end_verification_graph_update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_1_test_harness_dependencies",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_1_test_harness_dependencies",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_1_test_harness_dependencies",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_1_test_harness_dependencies",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_1_test_harness_dependencies",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_2_d1_usage_counter_schema",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_2_d1_usage_counter_schema",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_2_d1_usage_counter_schema",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_2_d1_usage_counter_schema",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_12",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L246",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_14",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L265",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_15",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L283",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_3_validation_prompt_utilities_tdd",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_16",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L297",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_4_quota_service_provider_adapter",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_17",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L320",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_4_quota_service_provider_adapter",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_18",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L331",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_4_quota_service_provider_adapter",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L351",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_4_quota_service_provider_adapter",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_20",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L367",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_5_ask_endpoint_with_auth_validation_quota_and_provider_errors",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_21",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L395",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_5_ask_endpoint_with_auth_validation_quota_and_provider_errors",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L409",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_5_ask_endpoint_with_auth_validation_quota_and_provider_errors",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L418",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_5_ask_endpoint_with_auth_validation_quota_and_provider_errors",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_24",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L427",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_5_ask_endpoint_with_auth_validation_quota_and_provider_errors",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_25",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L440",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_5_ask_endpoint_with_auth_validation_quota_and_provider_errors",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_26",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L453",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_6_log_q_a_page_ui_session_only_state",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L480",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_6_log_q_a_page_ui_session_only_state",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_28",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L503",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_6_log_q_a_page_ui_session_only_state",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_29",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L515",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_7_end_to_end_verification_graph_update",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_30",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-28-second-life-log-qa-implementation.md",
+      "source_location": "L544",
+      "weight": 1.0,
+      "source": "plans_2026_05_28_second_life_log_qa_implementation_task_7_end_to_end_verification_graph_update",
+      "target": "plans_2026_05_28_second_life_log_qa_implementation_codeblock_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_specs_2026_05_28_second_life_log_qa_design_md",
+      "target": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_user_experience",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_data_storage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_validation_and_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_ai_prompting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-28-second-life-log-qa-design.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "specs_2026_05_28_second_life_log_qa_design_second_life_log_q_a_design",
+      "target": "specs_2026_05_28_second_life_log_qa_design_decisions",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "e942d1d555621e8745ac0c4f9f87fcaf183cfbc5"
+}
