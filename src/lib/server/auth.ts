@@ -4,6 +4,7 @@ import { sveltekitCookies } from 'better-auth/svelte-kit';
 import { env } from '$env/dynamic/private';
 import { getRequestEvent } from '$app/server';
 import { getDb } from '$lib/server/db';
+import type { AnyD1Database } from 'drizzle-orm/d1';
 
 const authConfig = {
 	baseURL: env.ORIGIN,
@@ -14,7 +15,7 @@ const authConfig = {
 	]
 } satisfies Omit<Parameters<typeof betterAuth>[0], 'database'>;
 
-export const createAuth = (d1: D1Database) =>
+export const createAuth = (d1: AnyD1Database) =>
 	betterAuth({
 		...authConfig,
 		database: drizzleAdapter(getDb(d1), { provider: 'sqlite' })
