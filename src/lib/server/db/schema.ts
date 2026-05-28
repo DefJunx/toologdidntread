@@ -19,4 +19,16 @@ export const logQaUsage = sqliteTable(
 	(table) => [primaryKey({ columns: [table.userId, table.utcDay] })]
 );
 
+export const inviteCodes = sqliteTable('invite_codes', {
+	id: text('id').primaryKey(),
+	codeHash: text('code_hash').notNull().unique(),
+	createdBy: text('created_by'),
+	expiresAt: integer('expires_at', { mode: 'timestamp_ms' }),
+	maxUses: integer('max_uses').notNull().default(1),
+	usedCount: integer('used_count').notNull().default(0),
+	disabled: integer('disabled', { mode: 'boolean' }).notNull().default(false),
+	createdAt: integer('created_at', { mode: 'timestamp_ms' }).notNull(),
+	updatedAt: integer('updated_at', { mode: 'timestamp_ms' }).notNull()
+});
+
 export * from './auth.schema';

@@ -1,16 +1,16 @@
-# Graph Report - task-3-log-qa-validation-prompt  (2026-05-28)
+# Graph Report - toologdidntread  (2026-05-28)
 
 ## Corpus Check
-- 44 files · ~7,310 words
+- 58 files · ~11,177 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 339 nodes · 383 edges · 36 communities (27 shown, 9 thin omitted)
+- 437 nodes · 501 edges · 43 communities (33 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `12f771f8`
+- Built from commit: `2739515d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,32 +42,35 @@
 - [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
 - [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `scripts` - 16 edges
+1. `scripts` - 17 edges
 2. `scripts` - 16 edges
-3. `compilerOptions` - 12 edges
-4. `Second Life Log Q&A Design` - 12 edges
-5. `POST()` - 11 edges
-6. `createAuth()` - 8 edges
-7. `getDb()` - 8 edges
-8. `File Structure` - 8 edges
-9. `Task 3: Validation + Prompt Utilities (TDD)` - 8 edges
-10. `files` - 7 edges
+3. `Auth + Invite Registration + /log-qa Gate Design` - 15 edges
+4. `compilerOptions` - 12 edges
+5. `Second Life Log Q&A Design` - 12 edges
+6. `POST()` - 11 edges
+7. `getDb()` - 10 edges
+8. `Auth + Invite Registration + /log-qa Gate Implementation Plan` - 10 edges
+9. `createAuth()` - 8 edges
+10. `Task 2: Add Login and Register Routes With Server Actions` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `getDailyCount()` --calls--> `getDb()`  [EXTRACTED]
-  src/lib/server/log-qa/usage.ts → /home/daniele/dev/toologdidntread/src/lib/server/db/index.ts
-- `incrementDailyCount()` --calls--> `getDb()`  [EXTRACTED]
-  src/lib/server/log-qa/usage.ts → /home/daniele/dev/toologdidntread/src/lib/server/db/index.ts
+- `buildPromptPayload()` --calls--> `withLineNumbers()`  [EXTRACTED]
+  src/lib/server/log-qa/prompt.ts → .worktrees/task-3-log-qa-validation-prompt/src/lib/server/log-qa/line-number.ts
 - `POST()` --calls--> `buildPromptPayload()`  [EXTRACTED]
   src/routes/api/log-qa/ask/+server.ts → src/lib/server/log-qa/prompt.ts
-- `createAuth()` --calls--> `getDb()`  [EXTRACTED]
-  /home/daniele/dev/toologdidntread/src/lib/server/auth.ts → /home/daniele/dev/toologdidntread/src/lib/server/db/index.ts
-- `handleBetterAuth()` --calls--> `createAuth()`  [EXTRACTED]
-  /home/daniele/dev/toologdidntread/src/hooks.server.ts → /home/daniele/dev/toologdidntread/src/lib/server/auth.ts
+- `getDailyCount()` --calls--> `getDb()`  [EXTRACTED]
+  src/lib/server/log-qa/usage.ts → src/lib/server/db/index.ts
+- `incrementDailyCount()` --calls--> `getDb()`  [EXTRACTED]
+  src/lib/server/log-qa/usage.ts → src/lib/server/db/index.ts
+- `consumeInviteCode()` --calls--> `getDb()`  [EXTRACTED]
+  src/lib/server/auth/invite-repository.ts → src/lib/server/db/index.ts
 
-## Communities (36 total, 9 thin omitted)
+## Communities (43 total, 10 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -78,20 +81,20 @@ Cohesion: 0.20
 Nodes (13): files, code, document, image, paper, video, graphifyignore_patterns, needs_graph (+5 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.08
-Nodes (24): name, private, type, version, name, private, scripts, auth:schema (+16 more)
+Cohesion: 0.12
+Nodes (16): scripts, auth:schema, build, check, check:watch, db:generate, db:migrate, db:push (+8 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.15
 Nodes (12): compilerOptions, allowJs, checkJs, esModuleInterop, forceConsistentCasingInFileNames, moduleResolution, resolveJsonModule, rewriteRelativeImportExtensions (+4 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.35
-Nodes (5): auth, createAuth(), Locals, Platform, handleBetterAuth()
+Cohesion: 0.25
+Nodes (7): getDb(), auth, createAuth(), mocks, Locals, Platform, handleBetterAuth()
 
 ### Community 5 - "Community 5"
 Cohesion: 0.11
-Nodes (17): Building, code:sh (# create a new project), code:sh (# recreate this project), code:sh (npm run dev), code:sh (npm run build), Creating a project, Developing, Log Q&A (+9 more)
+Nodes (18): Building, code:sh (# create a new project), code:sh (# recreate this project), code:sh (npm run dev), code:sh (npm run build), Creating a project, Developing, Log Q&A (+10 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.39
@@ -106,8 +109,8 @@ Cohesion: 0.28
 Nodes (7): 1. list-sections, 2. get-documentation, 3. svelte-autofixer, 4. playground-link, Available Svelte MCP Tools:, graphify, Project Configuration
 
 ### Community 9 - "Community 9"
-Cohesion: 0.06
-Nodes (33): code:json ({), code:ts (// tests/server/log-qa/usage.test.ts), code:ts (// src/lib/server/log-qa/usage.ts), code:ts (// src/lib/server/log-qa/provider.ts), code:bash (pnpm add -D vitest @testing-library/svelte jsdom @vitest/cov), code:bash (git add src/lib/server/log-qa/usage.ts src/lib/server/log-qa), code:ts (// tests/routes/api/log-qa-ask.test.ts), code:ts (// src/routes/api/log-qa/ask/+server.ts (shape)) (+25 more)
+Cohesion: 0.05
+Nodes (41): code:json ({), code:ts (// tests/server/log-qa/validation.test.ts), code:ts (// tests/server/log-qa/prompt.test.ts), code:ts (// src/lib/server/log-qa/constants.ts), code:ts (// src/lib/server/log-qa/line-number.ts), code:ts (// src/lib/server/log-qa/validation.ts), code:ts (// src/lib/server/log-qa/prompt.ts), code:bash (git add src/lib/server/log-qa/constants.ts src/lib/server/lo) (+33 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.33
@@ -122,44 +125,52 @@ Cohesion: 0.15
 Nodes (11): AI Prompting, Architecture, Data Storage, Decisions, Goals, Non-Goals, Second Life Log Q&A Design, Summary (+3 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.25
-Nodes (8): code:ts (// tests/server/log-qa/validation.test.ts), code:ts (// tests/server/log-qa/prompt.test.ts), code:ts (// src/lib/server/log-qa/constants.ts), code:ts (// src/lib/server/log-qa/line-number.ts), code:ts (// src/lib/server/log-qa/validation.ts), code:ts (// src/lib/server/log-qa/prompt.ts), code:bash (git add src/lib/server/log-qa/constants.ts src/lib/server/lo), Task 3: Validation + Prompt Utilities (TDD)
+Cohesion: 0.06
+Nodes (34): Auth + Invite Registration + /log-qa Gate Implementation Plan, code:ts (// tests/server/auth/invite-code.test.ts), code:svelte (<!-- src/routes/login/+page.svelte -->), code:svelte (<!-- src/routes/register/+page.svelte -->), code:bash (git add src/lib/server/auth/next.ts src/routes/login/+page.s), code:ts (// tests/server/hooks.auth-gate.test.ts), code:ts (// after getSession in src/hooks.server.ts), code:bash (git add src/hooks.server.ts tests/server/hooks.auth-gate.tes) (+26 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.06
 Nodes (34): devDependencies, better-auth, @better-auth/cli, drizzle-kit, drizzle-orm, eslint, @eslint/compat, eslint-config-prettier (+26 more)
 
 ### Community 29 - "Community 29"
-Cohesion: 0.16
-Nodes (16): mocks, POST(), getDb(), logQaUsage, task, MAX_LOG_BYTES, SUPPORTED_EXTENSIONS, createGeminiProvider() (+8 more)
+Cohesion: 0.14
+Nodes (17): AskEvent, mocks, POST(), inviteCodes, logQaUsage, task, MAX_LOG_BYTES, SUPPORTED_EXTENSIONS (+9 more)
 
 ### Community 30 - "Community 30"
-Cohesion: 0.12
-Nodes (16): scripts, auth:schema, build, check, check:watch, db:generate, db:migrate, db:push (+8 more)
+Cohesion: 0.09
+Nodes (24): name, private, scripts, auth:schema, build, check, check:watch, db:generate (+16 more)
 
 ### Community 31 - "Community 31"
-Cohesion: 0.53
+Cohesion: 0.39
 Nodes (3): withLineNumbers(), buildPromptPayload(), payload
 
+### Community 36 - "Community 36"
+Cohesion: 0.07
+Nodes (28): Acceptance Criteria, API Gating, Architecture, Auth Action Tests, Auth + Invite Registration + /log-qa Gate Design, Auth Source of Truth, Constraints, Data Flow (+20 more)
+
+### Community 37 - "Community 37"
+Cohesion: 0.21
+Nodes (10): hashInviteCode(), InviteRejectReason, isInviteUsable(), mapInviteError(), normalizeInviteCode(), consumeInviteCode(), ConsumeInviteResult, validateNextPath() (+2 more)
+
 ## Knowledge Gaps
-- **188 isolated node(s):** `rewriteRelativeImportExtensions`, `allowJs`, `checkJs`, `esModuleInterop`, `forceConsistentCasingInFileNames` (+183 more)
+- **239 isolated node(s):** `rewriteRelativeImportExtensions`, `allowJs`, `checkJs`, `esModuleInterop`, `forceConsistentCasingInFileNames` (+234 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `devDependencies` connect `Community 25` to `Community 2`?**
-  _High betweenness centrality (0.052) - this node is a cross-community bridge._
-- **Why does `devDependencies` connect `Community 0` to `Community 2`?**
-  _High betweenness centrality (0.051) - this node is a cross-community bridge._
-- **Why does `scripts` connect `Community 30` to `Community 2`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+- **Why does `devDependencies` connect `Community 25` to `Community 30`?**
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+- **Why does `devDependencies` connect `Community 0` to `Community 30`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **What connects `rewriteRelativeImportExtensions`, `allowJs`, `checkJs` to the rest of the system?**
-  _188 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _239 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06060606060606061 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Community 5` be split into smaller, more focused modules?**
-  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
+- **Should `Community 9` be split into smaller, more focused modules?**
+  _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._

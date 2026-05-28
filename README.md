@@ -46,3 +46,5 @@ You can preview the production build with `npm run preview`.
 - Route: `/log-qa`
 - Raw log text is session-only and never stored by this app.
 - Requires `GEMINI_API_KEY` and Better Auth login for AI questions.
+- Unauthenticated visits to `/log-qa` are redirected to `/login?next=/log-qa`.
+- New account creation is invite-only via `/register` and a valid invite code.
