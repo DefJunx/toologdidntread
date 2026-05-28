@@ -1,1 +1,47 @@
-{"files": {"code": ["/home/daniele/dev/toologdidntread/drizzle.config.ts", "/home/daniele/dev/toologdidntread/eslint.config.js", "/home/daniele/dev/toologdidntread/tsconfig.json", "/home/daniele/dev/toologdidntread/package.json", "/home/daniele/dev/toologdidntread/.graphify_detect.json", "/home/daniele/dev/toologdidntread/vite.config.ts", "/home/daniele/dev/toologdidntread/.mcp.json", "/home/daniele/dev/toologdidntread/svelte.config.js", "/home/daniele/dev/toologdidntread/.opencode/opencode.json", "/home/daniele/dev/toologdidntread/.opencode/svelte.json", "/home/daniele/dev/toologdidntread/.cursor/mcp.json", "/home/daniele/dev/toologdidntread/.vscode/extensions.json", "/home/daniele/dev/toologdidntread/.vscode/settings.json", "/home/daniele/dev/toologdidntread/src/hooks.server.ts", "/home/daniele/dev/toologdidntread/src/app.d.ts", "/home/daniele/dev/toologdidntread/src/routes/+layout.svelte", "/home/daniele/dev/toologdidntread/src/routes/+page.svelte", "/home/daniele/dev/toologdidntread/src/lib/index.ts", "/home/daniele/dev/toologdidntread/src/lib/server/auth.ts", "/home/daniele/dev/toologdidntread/src/lib/server/db/index.ts", "/home/daniele/dev/toologdidntread/src/lib/server/db/schema.ts", "/home/daniele/dev/toologdidntread/src/lib/server/db/auth.schema.ts", "/home/daniele/dev/toologdidntread/.claude/settings.local.json"], "document": ["/home/daniele/dev/toologdidntread/README.md", "/home/daniele/dev/toologdidntread/CLAUDE.md", "/home/daniele/dev/toologdidntread/pnpm-workspace.yaml", "/home/daniele/dev/toologdidntread/AGENTS.md", "/home/daniele/dev/toologdidntread/src/app.html", "/home/daniele/dev/toologdidntread/static/robots.txt"], "paper": [], "image": ["/home/daniele/dev/toologdidntread/src/lib/assets/favicon.svg"], "video": []}, "total_files": 30, "total_words": 2149, "needs_graph": false, "warning": "Corpus is ~2,149 words - fits in a single context window. You may not need a graph.", "skipped_sensitive": ["/home/daniele/dev/toologdidntread/.env.example"], "graphifyignore_patterns": 15, "scan_root": "/home/daniele/dev/toologdidntread"}
+{
+	"files": {
+		"code": [
+			"/home/daniele/dev/toologdidntread/drizzle.config.ts",
+			"/home/daniele/dev/toologdidntread/eslint.config.js",
+			"/home/daniele/dev/toologdidntread/tsconfig.json",
+			"/home/daniele/dev/toologdidntread/package.json",
+			"/home/daniele/dev/toologdidntread/.graphify_detect.json",
+			"/home/daniele/dev/toologdidntread/vite.config.ts",
+			"/home/daniele/dev/toologdidntread/.mcp.json",
+			"/home/daniele/dev/toologdidntread/svelte.config.js",
+			"/home/daniele/dev/toologdidntread/.opencode/opencode.json",
+			"/home/daniele/dev/toologdidntread/.opencode/svelte.json",
+			"/home/daniele/dev/toologdidntread/.cursor/mcp.json",
+			"/home/daniele/dev/toologdidntread/.vscode/extensions.json",
+			"/home/daniele/dev/toologdidntread/.vscode/settings.json",
+			"/home/daniele/dev/toologdidntread/src/hooks.server.ts",
+			"/home/daniele/dev/toologdidntread/src/app.d.ts",
+			"/home/daniele/dev/toologdidntread/src/routes/+layout.svelte",
+			"/home/daniele/dev/toologdidntread/src/routes/+page.svelte",
+			"/home/daniele/dev/toologdidntread/src/lib/index.ts",
+			"/home/daniele/dev/toologdidntread/src/lib/server/auth.ts",
+			"/home/daniele/dev/toologdidntread/src/lib/server/db/index.ts",
+			"/home/daniele/dev/toologdidntread/src/lib/server/db/schema.ts",
+			"/home/daniele/dev/toologdidntread/src/lib/server/db/auth.schema.ts",
+			"/home/daniele/dev/toologdidntread/.claude/settings.local.json"
+		],
+		"document": [
+			"/home/daniele/dev/toologdidntread/README.md",
+			"/home/daniele/dev/toologdidntread/CLAUDE.md",
+			"/home/daniele/dev/toologdidntread/pnpm-workspace.yaml",
+			"/home/daniele/dev/toologdidntread/AGENTS.md",
+			"/home/daniele/dev/toologdidntread/src/app.html",
+			"/home/daniele/dev/toologdidntread/static/robots.txt"
+		],
+		"paper": [],
+		"image": ["/home/daniele/dev/toologdidntread/src/lib/assets/favicon.svg"],
+		"video": []
+	},
+	"total_files": 30,
+	"total_words": 2149,
+	"needs_graph": false,
+	"warning": "Corpus is ~2,149 words - fits in a single context window. You may not need a graph.",
+	"skipped_sensitive": ["/home/daniele/dev/toologdidntread/.env.example"],
+	"graphifyignore_patterns": 15,
+	"scan_root": "/home/daniele/dev/toologdidntread"
+}

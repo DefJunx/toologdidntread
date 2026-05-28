@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { validateLogFileName, validateLogText, validateQuestion } from '$lib/server/log-qa/validation';
+import {
+	validateLogFileName,
+	validateLogText,
+	validateQuestion
+} from '$lib/server/log-qa/validation';
 
 describe('validation', () => {
 	it('accepts .txt and .log file names', () => {

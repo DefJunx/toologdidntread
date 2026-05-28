@@ -41,7 +41,10 @@
 			});
 			const payload = await response.json();
 			if (!response.ok) throw new Error(payload.error ?? 'Request failed');
-			answers = [{ question, answer: payload.answer, evidence: payload.evidence ?? [] }, ...answers];
+			answers = [
+				{ question, answer: payload.answer, evidence: payload.evidence ?? [] },
+				...answers
+			];
 			question = '';
 		} catch (cause) {
 			error = cause instanceof Error ? cause.message : 'Request failed';
@@ -57,8 +60,12 @@
 
 <section class="mx-auto max-w-3xl space-y-6 p-6">
 	<h1 class="text-2xl font-semibold">Second Life Log Q&amp;A</h1>
-	<p class="text-sm text-gray-700">Your uploaded log is used only for this active session and is never stored by this app.</p>
-	<p class="text-sm text-gray-700">Answers are generated via a paid Gemini API tier and may include mistakes.</p>
+	<p class="text-sm text-gray-700">
+		Your uploaded log is used only for this active session and is never stored by this app.
+	</p>
+	<p class="text-sm text-gray-700">
+		Answers are generated via a paid Gemini API tier and may include mistakes.
+	</p>
 	<p class="text-sm text-gray-600">Common path hint: <code>SecondLife/logs</code></p>
 
 	<div
@@ -68,7 +75,9 @@
 		ondragover={(e) => e.preventDefault()}
 		ondrop={onDrop}
 	>
-		<label class="block text-sm font-medium" for="log-file">Upload Second Life log (.txt or .log)</label>
+		<label class="block text-sm font-medium" for="log-file"
+			>Upload Second Life log (.txt or .log)</label
+		>
 		<input id="log-file" type="file" accept=".txt,.log" onchange={onFileChange} class="mt-2" />
 		{#if fileName}
 			<p class="mt-2 text-sm">Loaded: {fileName}</p>
@@ -77,8 +86,14 @@
 
 	<div class="space-y-2">
 		<label class="block text-sm font-medium" for="question">Question</label>
-		<textarea id="question" bind:value={question} rows="3" class="w-full rounded border p-2"></textarea>
-		<button type="button" class="rounded bg-black px-4 py-2 text-white disabled:opacity-50" onclick={ask} disabled={loading}>
+		<textarea id="question" bind:value={question} rows="3" class="w-full rounded border p-2"
+		></textarea>
+		<button
+			type="button"
+			class="rounded bg-black px-4 py-2 text-white disabled:opacity-50"
+			onclick={ask}
+			disabled={loading}
+		>
 			{loading ? 'Asking...' : 'Ask'}
 		</button>
 	</div>
@@ -89,13 +104,13 @@
 
 	{#if answers.length > 0}
 		<ul class="space-y-4">
-			{#each answers as item}
+			{#each answers as item (item.question + item.answer)}
 				<li class="rounded border p-4">
 					<p class="text-sm font-medium">Q: {item.question}</p>
 					<p class="mt-2">{item.answer}</p>
 					{#if item.evidence.length > 0}
 						<ul class="mt-2 list-disc pl-5 text-sm text-gray-700">
-							{#each item.evidence as evidence}
+							{#each item.evidence as evidence (evidence)}
 								<li>{evidence}</li>
 							{/each}
 						</ul>

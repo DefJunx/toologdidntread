@@ -42,6 +42,7 @@ You can preview the production build with `npm run preview`.
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
 ## Log Q&A
+
 - Route: `/log-qa`
 - Raw log text is session-only and never stored by this app.
 - Requires `GEMINI_API_KEY` and Better Auth login for AI questions.

@@ -4,10 +4,15 @@ export interface LogQaProvider {
 
 const parseJsonPayload = (text: string): { answer: string; evidence: string[] } => {
 	const trimmed = text.trim();
-	const cleaned = trimmed.replace(/^```json\s*/i, '').replace(/```$/i, '').trim();
+	const cleaned = trimmed
+		.replace(/^```json\s*/i, '')
+		.replace(/```$/i, '')
+		.trim();
 	const parsed = JSON.parse(cleaned) as { answer?: unknown; evidence?: unknown };
 	if (typeof parsed.answer !== 'string') throw new Error('Invalid provider response');
-	const evidence = Array.isArray(parsed.evidence) ? parsed.evidence.filter((item): item is string => typeof item === 'string') : [];
+	const evidence = Array.isArray(parsed.evidence)
+		? parsed.evidence.filter((item): item is string => typeof item === 'string')
+		: [];
 	return { answer: parsed.answer, evidence };
 };
 

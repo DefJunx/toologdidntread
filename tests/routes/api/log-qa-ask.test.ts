@@ -8,7 +8,9 @@ const mocks = vi.hoisted(() => ({
 }));
 
 vi.mock('$lib/server/log-qa/usage', async () => {
-	const actual = await vi.importActual<typeof import('$lib/server/log-qa/usage')>('$lib/server/log-qa/usage');
+	const actual = await vi.importActual<typeof import('$lib/server/log-qa/usage')>(
+		'$lib/server/log-qa/usage'
+	);
 	return {
 		...actual,
 		getDailyCount: mocks.getDailyCount,
@@ -22,6 +24,7 @@ vi.mock('$lib/server/log-qa/provider', () => ({
 }));
 
 import { POST } from '../../../src/routes/api/log-qa/ask/+server';
+type AskEvent = Parameters<typeof POST>[0];
 
 describe('POST /api/log-qa/ask', () => {
 	beforeEach(() => {
@@ -35,7 +38,10 @@ describe('POST /api/log-qa/ask', () => {
 	});
 
 	it('rejects unauthenticated requests', async () => {
-		const res = await POST({ request: new Request('http://x', { method: 'POST', body: '{}' }), locals: {} } as any);
+		const res = await POST({
+			request: new Request('http://x', { method: 'POST', body: '{}' }),
+			locals: {}
+		} as unknown as AskEvent);
 		expect(res.status).toBe(401);
 	});
 
@@ -52,7 +58,7 @@ describe('POST /api/log-qa/ask', () => {
 			}),
 			locals: { user: { id: 'u1' } },
 			platform: { env: { DB: {} } }
-		} as any);
+		} as unknown as AskEvent);
 
 		expect(res.status).toBe(429);
 	});
@@ -69,7 +75,7 @@ describe('POST /api/log-qa/ask', () => {
 			}),
 			locals: { user: { id: 'u1' } },
 			platform: { env: { DB: {} } }
-		} as any);
+		} as unknown as AskEvent);
 
 		expect(res.status).toBe(502);
 		expect(await res.json()).toEqual({ error: 'AI provider unavailable' });

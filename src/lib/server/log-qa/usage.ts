@@ -7,10 +7,15 @@ import { MAX_QUESTIONS_PER_UTC_DAY } from './constants';
 export const getUtcDay = (date = new Date()) => date.toISOString().slice(0, 10);
 
 export const assertWithinQuota = (currentCount: number) => {
-	if (currentCount >= MAX_QUESTIONS_PER_UTC_DAY) throw new Error('Daily limit reached (20 questions per UTC day)');
+	if (currentCount >= MAX_QUESTIONS_PER_UTC_DAY)
+		throw new Error('Daily limit reached (20 questions per UTC day)');
 };
 
-export const getDailyCount = async (d1: AnyD1Database, userId: string, utcDay: string): Promise<number> => {
+export const getDailyCount = async (
+	d1: AnyD1Database,
+	userId: string,
+	utcDay: string
+): Promise<number> => {
 	const db = getDb(d1);
 	const rows = await db
 		.select({ questionCount: logQaUsage.questionCount })
@@ -20,7 +25,11 @@ export const getDailyCount = async (d1: AnyD1Database, userId: string, utcDay: s
 	return rows[0]?.questionCount ?? 0;
 };
 
-export const incrementDailyCount = async (d1: AnyD1Database, userId: string, utcDay: string): Promise<number> => {
+export const incrementDailyCount = async (
+	d1: AnyD1Database,
+	userId: string,
+	utcDay: string
+): Promise<number> => {
 	const db = getDb(d1);
 	await db
 		.insert(logQaUsage)

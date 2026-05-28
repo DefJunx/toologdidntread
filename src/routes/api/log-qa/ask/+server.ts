@@ -1,10 +1,19 @@
-import { json } from '@sveltejs/kit';
+import { json, type RequestEvent } from '@sveltejs/kit';
 import { buildPromptPayload } from '$lib/server/log-qa/prompt';
 import { createGeminiProvider } from '$lib/server/log-qa/provider';
-import { assertWithinQuota, getDailyCount, getUtcDay, incrementDailyCount } from '$lib/server/log-qa/usage';
-import { validateLogFileName, validateLogText, validateQuestion } from '$lib/server/log-qa/validation';
+import {
+	assertWithinQuota,
+	getDailyCount,
+	getUtcDay,
+	incrementDailyCount
+} from '$lib/server/log-qa/usage';
+import {
+	validateLogFileName,
+	validateLogText,
+	validateQuestion
+} from '$lib/server/log-qa/validation';
 
-export const POST = async (event: any) => {
+export const POST = async (event: RequestEvent) => {
 	try {
 		const { request, locals, platform } = event;
 		if (!locals?.user?.id) return json({ error: 'Unauthorized' }, { status: 401 });

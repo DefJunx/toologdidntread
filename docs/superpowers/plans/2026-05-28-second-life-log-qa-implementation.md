@@ -35,6 +35,7 @@
 ### Task 1: Test Harness + Dependencies
 
 **Files:**
+
 - Modify: `package.json`
 - Modify: `vite.config.ts`
 - Create: `tests/setup.ts`
@@ -43,10 +44,10 @@
 
 ```json
 {
-  "scripts": {
-    "test": "vitest run",
-    "test:watch": "vitest"
-  }
+	"scripts": {
+		"test": "vitest run",
+		"test:watch": "vitest"
+	}
 }
 ```
 
@@ -100,6 +101,7 @@ git commit -m "chore: add vitest test harness"
 ### Task 2: D1 Usage Counter Schema
 
 **Files:**
+
 - Modify: `src/lib/server/db/schema.ts`
 - Create: `src/lib/server/db/migrations/0001_log_qa_usage.sql`
 
@@ -166,6 +168,7 @@ git commit -m "feat: add log qa usage counter schema"
 ### Task 3: Validation + Prompt Utilities (TDD)
 
 **Files:**
+
 - Create: `src/lib/server/log-qa/constants.ts`
 - Create: `src/lib/server/log-qa/validation.ts`
 - Create: `src/lib/server/log-qa/line-number.ts`
@@ -178,7 +181,11 @@ git commit -m "feat: add log qa usage counter schema"
 ```ts
 // tests/server/log-qa/validation.test.ts
 import { describe, expect, it } from 'vitest';
-import { validateLogFileName, validateLogText, validateQuestion } from '$lib/server/log-qa/validation';
+import {
+	validateLogFileName,
+	validateLogText,
+	validateQuestion
+} from '$lib/server/log-qa/validation';
 
 describe('validation', () => {
 	it('accepts .txt and .log file names', () => {
@@ -249,12 +256,14 @@ import { MAX_LOG_BYTES, SUPPORTED_EXTENSIONS } from './constants';
 
 export const validateLogFileName = (fileName: string) => {
 	const lower = fileName.toLowerCase();
-	if (!SUPPORTED_EXTENSIONS.some((ext) => lower.endsWith(ext))) throw new Error('Unsupported file type');
+	if (!SUPPORTED_EXTENSIONS.some((ext) => lower.endsWith(ext)))
+		throw new Error('Unsupported file type');
 };
 
 export const validateLogText = (logText: string) => {
 	if (!logText.trim()) throw new Error('Uploaded log is empty');
-	if (new TextEncoder().encode(logText).byteLength > MAX_LOG_BYTES) throw new Error('Uploaded log is too large');
+	if (new TextEncoder().encode(logText).byteLength > MAX_LOG_BYTES)
+		throw new Error('Uploaded log is too large');
 };
 
 export const validateQuestion = (question: string) => {
@@ -266,7 +275,13 @@ export const validateQuestion = (question: string) => {
 // src/lib/server/log-qa/prompt.ts
 import { withLineNumbers } from './line-number';
 
-export const buildPromptPayload = ({ question, logText }: { question: string; logText: string }) => ({
+export const buildPromptPayload = ({
+	question,
+	logText
+}: {
+	question: string;
+	logText: string;
+}) => ({
 	system:
 		'Answer using only the supplied Second Life log. If the log does not support the answer, say you cannot tell from the log. Return JSON with keys: answer (string) and evidence (array of short snippets or line references).',
 	user: `Question:\n${question}\n\nSecond Life log:\n${withLineNumbers(logText)}`
@@ -288,6 +303,7 @@ git commit -m "feat: add log qa validation and prompt utilities"
 ### Task 4: Quota Service + Provider Adapter
 
 **Files:**
+
 - Create: `src/lib/server/log-qa/usage.ts`
 - Create: `src/lib/server/log-qa/provider.ts`
 - Modify: `tests/server/log-qa/usage.test.ts`
@@ -324,7 +340,8 @@ import { MAX_QUESTIONS_PER_UTC_DAY } from './constants';
 export const getUtcDay = (date = new Date()) => date.toISOString().slice(0, 10);
 
 export const assertWithinQuota = (currentCount: number) => {
-	if (currentCount >= MAX_QUESTIONS_PER_UTC_DAY) throw new Error('Daily limit reached (20 questions per UTC day)');
+	if (currentCount >= MAX_QUESTIONS_PER_UTC_DAY)
+		throw new Error('Daily limit reached (20 questions per UTC day)');
 };
 ```
 
@@ -356,6 +373,7 @@ git commit -m "feat: add quota primitives and provider interface"
 ### Task 5: Ask Endpoint With Auth, Validation, Quota, and Provider Errors
 
 **Files:**
+
 - Create: `src/routes/api/log-qa/ask/+server.ts`
 - Modify: `src/lib/server/log-qa/usage.ts`
 - Modify: `src/lib/server/log-qa/provider.ts`
@@ -371,7 +389,10 @@ import { POST } from '$routes/api/log-qa/ask/+server';
 
 describe('POST /api/log-qa/ask', () => {
 	it('rejects unauthenticated requests', async () => {
-		const res = await POST({ request: new Request('http://x', { method: 'POST', body: '{}' }), locals: {} } as any);
+		const res = await POST({
+			request: new Request('http://x', { method: 'POST', body: '{}' }),
+			locals: {}
+		} as any);
 		expect(res.status).toBe(401);
 	});
 
@@ -445,6 +466,7 @@ git commit -m "feat: add log qa ask endpoint with auth quota and provider handli
 ### Task 6: Log Q&A Page UI + Session-Only State
 
 **Files:**
+
 - Create: `src/routes/log-qa/+page.svelte`
 - Create: `tests/routes/log-qa-page.test.ts`
 
@@ -508,12 +530,14 @@ git commit -m "feat: add log qa page with upload and session history"
 ### Task 7: End-to-End Verification + Graph Update
 
 **Files:**
+
 - Modify: `README.md` (short feature + env section)
 
 - [ ] **Step 1: Add README usage notes**
 
 ```md
 ## Log Q&A
+
 - Route: `/log-qa`
 - Raw log text is session-only and never stored by this app.
 - Requires `GEMINI_API_KEY` and Better Auth login for AI questions.
