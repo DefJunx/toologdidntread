@@ -16,7 +16,8 @@
 		{
 			"binding": "DB",
 			"database_name": "toologdidntread",
-			"database_id": "4b4847f4-9aeb-4313-9067-cdfd97cfa379"
+			"database_id": "4b4847f4-9aeb-4313-9067-cdfd97cfa379",
+			"migrations_dir": "./drizzle"
 		}
 	]
 	/**

@@ -5,6 +5,7 @@ if (!process.env.CLOUDFLARE_DATABASE_ID) throw new Error('CLOUDFLARE_DATABASE_ID
 if (!process.env.CLOUDFLARE_D1_TOKEN) throw new Error('CLOUDFLARE_D1_TOKEN is not set');
 
 export default defineConfig({
+    out: './drizzle',
 	schema: './src/lib/server/db/schema.ts',
 	dialect: 'sqlite',
 	driver: 'd1-http',
@@ -14,5 +15,5 @@ export default defineConfig({
 		token: process.env.CLOUDFLARE_D1_TOKEN
 	},
 	verbose: true,
-	strict: true
+	strict: true,
 });

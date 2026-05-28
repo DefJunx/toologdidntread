@@ -18,7 +18,10 @@
 		"db:generate": "drizzle-kit generate",
 		"db:migrate": "drizzle-kit migrate",
 		"db:studio": "drizzle-kit studio",
-		"auth:schema": "better-auth generate --config src/lib/server/auth.ts --output src/lib/server/db/auth.schema.ts --yes"
+		"auth:schema": "better-auth generate --config src/lib/server/auth.ts --output src/lib/server/db/auth.schema.ts --yes",
+		"db:migrate:local": "drizzle-kit migrate",
+		"db:migrate:prod": "wrangler d1 migrations apply DB --remote",
+		"deploy": "npm run build && npm run db:migrate:prod && wrangler pages deploy"
 	},
 	"devDependencies": {
 		"@better-auth/cli": "~1.4.21",
